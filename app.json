@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "expo-update-url-bug",
+    "slug": "expo-update-url-bug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.louislatreille.expoupdateurlbug"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "louislatreille"
+        }
+      ]
+    ],
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/d1646d95-4f95-4938-8d9f-bd39a79cbdd4"
+    },
+    "extra": {
+      "TEST_ENV_VAR": "test",
+      "eas": {
+        "projectId": "d1646d95-4f95-4938-8d9f-bd39a79cbdd4"
+      }
+    }
+  }
+}
